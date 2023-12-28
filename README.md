@@ -26,7 +26,7 @@
 
 `Приведите ответ в свободной форме........`
 
-1. https://github.com/JukePuk/sys-pattern-homework/blob/main/Снимок%20экрана%202023-12-28%20в%2016.30.51.png)
+1. ![alt text](https://github.com/JukePuk/sys-pattern-homework/blob/main/Снимок%20экрана%202023-12-28%20в%2016.30.51.png)
 2. `get https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu22.04_all.deb`
 <br>`dpkg -i zabbix-release_6.4-1+ubuntu22.04_all.deb`
 <br>`apt update`
