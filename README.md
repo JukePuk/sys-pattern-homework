@@ -29,14 +29,14 @@
 1. `Заполните здесь этапы выполнения, если требуется ....`
 2. ` '
 3. `get https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu22.04_all.deb
-dpkg -i zabbix-release_6.4-1+ubuntu22.04_all.deb
-apt update
-apt install zabbix-server-pgsql zabbix-frontend-php php8.1-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
-sudo -u postgres createuser --pwprompt zabbix
-sudo -u postgres createdb -O zabbix zabbix
-zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
-systemctl restart zabbix-server zabbix-agent apache2
-systemctl enable zabbix-server zabbix-agent apache2`
+<br>dpkg -i zabbix-release_6.4-1+ubuntu22.04_all.deb
+<br>apt update
+<br>apt install zabbix-server-pgsql zabbix-frontend-php php8.1-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
+<br>sudo -u postgres createuser --pwprompt zabbix
+<br>sudo -u postgres createdb -O zabbix zabbix
+<br>zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+<br>systemctl restart zabbix-server zabbix-agent apache2
+<br>systemctl enable zabbix-server zabbix-agent apache2`
 4. `Заполните здесь этапы выполнения, если требуется ....`
 5. `Заполните здесь этапы выполнения, если требуется ....`
 6. 
