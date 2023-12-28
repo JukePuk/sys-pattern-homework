@@ -35,8 +35,8 @@
 <br>sudo -u postgres createuser --pwprompt zabbix
 <br>sudo -u postgres createdb -O zabbix zabbix
 <br>zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
-<br>systemctl restart zabbix-server zabbix-agent apache2
-<br>systemctl enable zabbix-server zabbix-agent apache2`
+<br>systemctl restart zabbix-server zabbix-agent apache2`
+<br>`systemctl enable zabbix-server zabbix-agent apache2`
 4. `Заполните здесь этапы выполнения, если требуется ....`
 5. `Заполните здесь этапы выполнения, если требуется ....`
 6. 
